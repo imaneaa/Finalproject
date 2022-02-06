@@ -114,16 +114,16 @@ private:
 
 void boardgame::generateAndAddNewNumber() is a method for adding new number and minimalizing the chance to get 4.
  ```c++
-void boardgame::creatingBoard() //is a method for creating 16 labels with specifications and adding them to QVector.
+void boardgame::créerboardgame() //is a method for creating 16 labels with specifications and adding them to QVector.
   ```
    ```c++
-void boardgame::settingBoard()//is a method for adding new cell with 2/4 every move and showing board
+void boardgame::settingBoardgame()//is a method for adding new cell with 2/4 every move and showing board
  ```
   ```c++
-bool boardgame::hasOptionsToMove()// is a method used to know if the player has the possiblity to make another move.
+bool boardgame::youcanMove()// is a method used to know if the player has the possiblity to make another move.
  ```
   ```c++
-QString boardgmae::calculatingColor() //is a method for  calculating color with specific RGB parameters(every power of two: - 50 alpha)
+QString boardgmae::changerlacouleur(int) //is a method for  calculating color with specific RGB parameters(every power of two: - 50 alpha)
  ```
 
   ```c++
@@ -131,7 +131,7 @@ void boardgame::reset()//a method used for the new game
   ```
    ```c++
 
-void boardgame::movingElementsDown/up/left/right ()// is a method used to the elements from a label to another label
+void boardgame::passerleselementsDown/up/left/right ()// is a method used to the elements from a label to another label
  ```
   ```c++
 void Board::caseDown() //if two elements have the same value then they should be merged
