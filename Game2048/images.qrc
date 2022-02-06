@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../Downloads/2048.ico</file>
+        <file>../Desktop/Mail/new game.jpg</file>
+        <file>../Desktop/Mail/back.jpg</file>
+    </qresource>
+</RCC>
